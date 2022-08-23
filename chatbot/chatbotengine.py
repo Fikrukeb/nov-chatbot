@@ -12,7 +12,7 @@ dialog_input = DialogInput()
 
 
 def get_default_error():
-    error_msg = "Sorry, I don't understand your question!"
+    error_msg = "Sorry, I don't understand your sentence 🤷!"
     return error_msg
 
 

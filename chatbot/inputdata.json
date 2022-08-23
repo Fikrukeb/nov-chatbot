@@ -1,0 +1,442 @@
+ [
+            [
+                r"my name is (.*)",
+                ["Hello %1, How are you today ?", ]
+            ],
+            [
+                r"what is your name ?",
+                ["My name is Covid Guard and I'm a chatbot ?", ]
+            ],
+            [
+                r"how are you ?",
+                ["I'm doing good, How about You ?", ]
+            ],
+            [
+                r"sorry (.*)",
+                ["Its alright", "Its OK, never mind", ]
+            ],
+            [
+                r"i'm (.*) doing good",
+                ["Nice to hear that", "Alright :)", ]
+            ],
+            [
+                r"hi|hey|hello",
+                ["Hello", "Hey there", ]
+            ],
+            [
+                r"(.*) age?",
+                ["I'm a computer program dude\nSeriously you are asking me this?", ]
+
+            ],
+            [
+                r"what (.*) want ?",
+                ["Make me an offer I can't refuse", ]
+
+            ],
+            [
+                r"(.*) created ?",
+                ["Nagesh created me using Python's NLTK library ", "top secret ;)", ]
+            ],
+            [
+                r"(.*) (location|city) ?",
+                ['Chennai, Tamil Nadu', ]
+            ],
+            [
+                r"how is weather in (.*)?",
+                ["Weather in %1 is awesome like always", "Too hot man here in %1", "Too cold man here in %1",
+                 "Never even heard about %1"]
+            ],
+            [
+                r"i work in (.*)?",
+                ["%1 is an Amazing company, I have heard about it. But they are in huge loss these days.", ]
+            ],
+            [
+                r"(.*)raining in (.*)",
+                ["No rain since last week here in %2", "Damn its raining too much here in %2"]
+            ],
+            [
+                r"how (.*) health(.*)",
+                ["I'm a computer program, so I'm always healthy ", ]
+            ],
+            [
+                r"(.*) (sports|game) ?",
+                ["I'm a very big fan of Football", ]
+            ],
+            [
+                r"who (.*) sportsperson ?",
+                ["Messy", "Ronaldo", "Roony"]
+            ],
+            [
+                r"who (.*) (moviestar|actor)?",
+                ["Brad Pitt"]
+            ],
+            [
+                r"quit",
+                ["BBye take care. See you soon :) ", "It was nice talking to you. See you soon :)"]
+            ],
+            [
+                r'What is a coronavirus?',
+                ['Coronaviruses are a large family of viruses which may cause illness in animals or humans.']
+            ],
+            [
+                r'What is covid-19 ?',
+                ['COVID-19 is the infectious disease caused by the most recently discovered coronavirus. This new virus and disease were unknown before the outbreak began in Wuhan, China, in December 2019. COVID-19 is now a pandemic affecting many countries globally.']
+            ],
+
+            [
+                r'What are the symptoms of COVID-19?',
+                ['The most common symptoms of COVID-19 are fever, dry cough, and tiredness.']
+            ],
+            [
+                r'What should I do if I have COVID-19 symptoms and when should I seek medical care?',
+                [
+                    'If you have minor symptoms, such as a slight cough or a mild fever, there is generally no need to seek medical care. Stay at home, self-isolate and monitor your symptoms. Follow national guidance on self-isolation.']
+            ],
+            [
+                r'How does COVID-19 spread?',
+                [
+                    'People can catch COVID-19 from others who have the virus. The disease spreads primarily from person to person through small droplets from the nose or mouth, which are expelled when a person with COVID-19 coughs, sneezes, or speaks.']
+            ],
+            [
+                r'Can COVID-19 be caught from a person who has no symptoms?',
+                [
+                    'COVID-19 is mainly spread through respiratory droplets expelled by someone who is coughing or has other symptoms such as fever or tiredness. Many people with COVID-19 experience only mild symptoms. This is particularly true in the early stages of the disease. It is possible to catch COVID-19 from someone who has just a mild cough and does not feel ill.']
+            ],
+            [
+                r'How can we protect others and ourselves if we don''t know who is infected?',
+                [
+                    'Practicing hand and respiratory hygiene is important at ALL times and is the best way to protect others and yourself. When possible maintain at least a 1 meter distance between yourself and others. This is especially important if you are standing by someone who is coughing or sneezing.']
+            ],
+            [
+                r'What should I do if I have come in close contact with someone who has COVID-19?',
+                [
+                    'If you have been in close contact with someone with COVID-19, you may be infected. Close contact means that you live with or have been in settings of less than 1 meter from those who have the disease. In these cases, it is best to stay at home.']
+            ],
+            [
+                r'What does it mean to self-isolate?',
+                [
+                    'Self-isolation is an important measure taken by those who have COVID-19 symptoms to avoid infecting others in the community, including family members.']
+            ],
+            [
+                r'What is the difference between self-isolation, self-quarantine and distancing?',
+                [
+                    'Quarantine means restricting activities or separating people who are not ill themselves but may have been exposed to COVID-19. The goal is to prevent spread of the disease at the time when people just develop symptoms. '
+                    'Isolation means separating people who are ill with symptoms of COVID-19 and may be infectious to prevent the spread of the disease']
+            ],
+            [
+                r'What should I do if I have no symptoms, but I think I have been exposed to COVID-19? What does it mean to self-quarantine?',
+                [
+                    'To self-quarantine means to separate yourself from others because you have been exposed to someone with COVID-19 even though you, yourself, do not have symptoms. During self-quarantine you monitor yourself for symptoms.  The goal of the self-quarantine is to prevent transmission.']
+            ],
+            [
+                r'Can children or adolescents catch COVID-19?',
+                [
+                    'Research indicates that children and adolescents are just as likely to become infected as any other age group and can spread the disease.',
+                    'Evidence to date suggests that children and young adults are less likely to get severe disease, but severe cases can still happen in these age groups.']
+            ],
+            [
+                r'What can I do to protect myself and prevent the spread of disease?',
+                [
+                    'Stay aware of the latest information on the COVID-19 outbreak, available on the WHO website and through your national and local public health authority. Most countries around the world have seen cases of COVID-19 and many are experiencing outbreaks.']
+            ],
+            [
+                r'Is there a vaccine, drug or treatment for COVID-19? ',
+                [
+                    'While some western, traditional or home remedies may provide comfort and alleviate symptoms of mild COVID-19, there are no medicines that have been shown to prevent or cure the disease. WHO does not recommend self-medication with any medicines, including antibiotics, as a prevention or cure for COVID-19. However, there are several ongoing clinical trials of both western and traditional medicines. WHO is coordinating efforts to develop vaccines and medicines to prevent and treat COVID-19 and will continue to provide updated information as soon research results become available.']
+            ],
+            [
+                r'Does WHO recommend wearing medical masks to prevent the spread of COVID-19? ',
+                [
+                    'Currently, there is not enough evidence for or against the use of masks (medical or other) in healthy individuals in the wider community. However, WHO is actively studying the rapidly evolving science on masks and continuously updates its guidance. ']
+            ],
+            [
+                r'How long does it take after exposure to COVID-19 to develop symptoms? ',
+                [
+                    'The time between exposure to COVID-19 and the moment when symptoms start is commonly around five to six days but can range from 1 – 14 days.']
+            ],
+            [
+                r'What is the connection between COVID-19 and animals? ',
+                ['COVID-19 is spread through human-to-human transmission. ']
+            ],
+            [
+                r'Can I catch COVID-19 from my pet? ',
+                [
+                    'Several dogs and cats (domestic cats and a tiger) in contact with infected humans have tested positive for COVID-19. In addition, ferrets appear to be susceptible to the infection. In experimental conditions, both cats and ferrets were able to transmit infection to other animals of the same species, but there is no evidence that these animals can transmit the disease to human and play a role in spreading COVID-19. COVID-19 is mainly spread through droplets produced when an infected person coughs, sneezes, or speaks. ']
+            ],
+            [
+                r'How long does the virus survive on surfaces? ',
+                [
+                    'The most important thing to know about coronavirus on surfaces is that they can easily be cleaned with common household disinfectants that will kill the virus. Studies have shown that the COVID-19 virus can survive for up to 72 hours on plastic and stainless steel, less than 4 hours on copper and less than 24 hours on cardboard.']
+            ],
+            [
+                r'How to grocery shop safely? ',
+                [
+                    'When grocery shopping, keep at least 1-metre distance from others and avoid touching your eyes, mouth and nose. If possible, sanitize the handles of shopping trolleys or baskets before shopping. Once home, wash your hands thoroughly and also after handling and storing your purchased products.',
+                    'There is currently no confirmed case of COVID-19 transmitted through food or food packaging.']
+            ],
+            [
+                r'How to wash fruits and vegetables?',
+                [
+                    'Fruits and vegetables are important components of a healthy diet. Wash them the same way you should do under any circumstance: before handling them, wash your hands with soap and water. Then, wash fruits and vegetables thoroughly with clean water, especially if you eat them raw.']
+            ],
+            [
+                r'Are antibiotics effective in preventing or treating COVID-19?',
+                [
+                    'No. Antibiotics do not work against viruses; they only work on bacterial infections. COVID-19 is caused by a virus, so antibiotics do not work. Antibiotics should not be used as a means of prevention or treatment of COVID-19. In hospitals physicians will sometimes use antibiotics to prevent or treat secondary bacterial infections which can be a complication of COVID-19 in severely ill patients. They should only be used as directed by a physician to treat a bacterial infection.']
+            ],
+            [
+                r'Can I catch COVID-19 from the faces of someone with the disease?',
+                [
+                    'While initial investigations suggest the virus may be present in faeces in some cases, to date, there have not been reports of faecal-oral transmission of COVID-19. Additionally, there is no evidence to date on the survival of the COVID-19 virus in water or sewage.',
+                    'WHO is assessing ongoing research on the ways COVID-19 is spread and will continue to share new findings on this topic.']
+            ],
+            [
+                r"ኮሮናቫይረስ ምንድነው?",
+                ["ኮሮናቫይረስ በእንስሳትም ይሁን በሰዎች ላይ በሽታ ሊያስከትሉ የሚችሉ ቫይረሶች አንድ ትልቅ ቤተሰብ ናቸው።","ኮሮናቫይረስ በእንስሳትም ይሁን በሰዎች ላይ በሽታ ሊያስከትሉ የሚችል የቫይረስ ዝርያ ነው ፡፡"]
+            ],
+            [
+                r'COVID-19 ምንድነው?|COVID19 ምንድነው?',
+                ['COVID-19 በጣም በቅርብ በተገኙት ኮሮናቫይረስ ምክንያት የሚመጣ ተላላፊ በሽታ ነው።']
+            ],
+            [
+                r'ሰላም|ጤና ይስጥልኝ',
+                ['ጤና ይስጥልኝ','ሰላም','እንዴት ነዎት?']
+
+            ],
+            [
+                r'የ COVID-19 ምልክቶች ምንድ ናቸው?',
+                ['በጣም የተለመዱት የ COVID-19 ምልክቶች ትኩሳት ፣ ደረቅ ሳል እና ድካም ናቸው ፡፡', 'አንዳንድ ሕመምተኞች የሚያሳዩት የህመም ስሜት ፣ የአፍንጫ መታፈን ፣ የንፍጥ መንጠባጠብ ፣ የጉሮሮ ህመም ወይም ተቅማጥ ሊኖራቸው ይችላል ፡፡ እነዚህ የህመም ምልክቶች ብዙውን ጊዜ መለስተኛ እና ቀስ በቀስ የሚጀምሩ ናቸው፡፡']
+            ],
+            [
+                r'ቻው',
+                ['ቻው፣ መልካም ጊዜ!','ቻው እጅዎን በመታጠብ፣ እርቀትዎን በመጠበቅ፣ ከንክኪ በመጠበቅ፣ እንድሁም ጭምብል በማድረግ፣ እራስዎትን እና ቤተሰብዎን ከኮሮና ቫይረስ ይጠብቁ።']
+            ],
+            [
+                r'የ COVID-19 ምልክቶች ከታዩብኝ ምን ማድረግ ይጠበቄብኛል?',
+                [
+                    'እንደ ትንሽ ጉንፋን ወይም ትንሽ ትኩሳት ያሉ ጥቃቅን ምልክቶች ካሉብዎት በአጠቃላይ የህክምና እርዳታ መፈለግ አያስፈልግዎትም ፡፡ ቤት ውስጥ ይቆዩ ፣ ራስን ማግለል እና የሕመም ምልክቶችዎን ይቆጣጠሩ። ራስን ማግለል ላይ ብሔራዊ መመሪያን ይከተሉ ፡፡']
+            ],
+            [
+                r'የ COVID-19 ምልክቶች ከታዩብኝ መቼ የሕክምና እርዳታ ማግኘት አለብኝ?',
+                ['የCOVID-19 ምልክት ከታየበት ጊዜ ጀምሮ መሆን አለበት፡፡']
+            ],
+            [
+                r'COVID-19 እንዴት ይሰራጫል?',
+                [
+                    'በሽታው በዋነኝነት ከሰው ወደ ሰው ከአፍንጫው ወይም ከአፉ ውስጥ በአነስተኛ ጠብታዎች በሚወጣ ፈሳሽ ንክኪ ይተላለፋል ፣ ይህም በCOVID-19 የተያዘ ሰው ሲያስል ፣ ሲያስነጥስ ፣ ወይም ሲናገር ሊተላለፍ ይችላል።']
+            ],
+            [
+                r'ምንም ምልክት የማያሳዩ ሰዎች COVID-19 ሊያስተላልፉ ይችላሉን?',
+                [
+                    'አዎ! ማስተላለፍ ይችላሉ፡፡ ምክንያቱም አንዳንድ ሰዎች መለስተኛ ህመም ብቻ ወይም ብዙም ምልክቶች ሳይታዩ በዉስጣቸው COVID-19 ን በመኖሩ ብቻ ሊያስተላልፍ ይችላል። ']
+            ],
+            [
+                r'በበሽታው የተያዘዉን ሰው በግልፅ ማን እንደሆነ ባናውቅ እንዴት እራሳችንን መጠበቅ እንችላለን?',
+                ['የእጅ እና የመተንፈሻ አካላትን ንፅህና ሁልጊዜ በሚገባ መጠበቅ፡፡ ከሌላ ሰው ጋር ያለንን አካላዊ ርቀት ቢያንስ 1 ሜትር እና ከዚያ በላይ እንድሆን ማድረጋ፡']
+            ],
+            [
+                r'COVID-19 ከተያዘ ሰው ጋር በቅርብ ግንኙነት ከነበረን ምን ማድረግ አለብኝ?',
+                ['በእንደዚህና  ተመሳሳይ አጋጣሚዎች እራስን በማግለል ቤት ውስጥ መቆየት ተመራጭ ነው።']
+            ],
+            [
+                r'ራስን ማግለል ሲባል ምን ማለት ነው?',
+                ['የቤተሰብ አባላትን ጨምሮ በማህበረሰቡ ውስጥ ያሉትን ሌሎች ሰዎችን በአካል አለመገናኘት፡፡']
+            ],
+            [
+                r'የ COVID-19 ምልክቶች ሳይታዩብኝ ወይም ከተያዘ ሰው ጋር ምንም ሳልገናኝ ራሴን ማግለል አለብኝ?',
+                ['የራስን ማግለል ዋና ዓላማው የ COVID-19 ስርጭትን መከላከል ነው ፡፡ ስለዚህ እራስን ማግለል ወይም በጥንቃቄ መንቀሳቀስ የግድ ይሆናል፡፡']
+            ],
+            [
+                r'ማህበራዊ እርቀት ማለት  ምንድነው?',
+                ['በአንድ ሰው እና በሌሎች ሰዎች መካከል የሚኖር አካላዊ እርቀት ማለት ነው፡፡']
+            ],
+            [
+                r'ለይቶ ማቆያ ማለት ምን ማለት ነው?',
+                ['ሰዎች ለኮሮኖ ቫይረስ ተጋላጭ ሊሆኑ ይችላሉ ተብሎ ሲታሰብ ለክትትል እንቆዩ የሚደረግበት ቦታ ነው፡፡']
+            ],
+            [
+                r'በ Covid-19 ምክንያት ሰዎችን መነጠል ማለት ምን ማለት ነው፡፡ ',
+                ['በ Covid-19 በሽታ የተያዙ ሰዎች በሽታውን ወደጤነኛ ሰዎች እንዳያስተላልፉ ለመከላከል ሲባል የሚለዩበት ሂደት ማለት ነው።']
+            ],
+            [
+                r'በ Covid-19 ምክንያት ራስን ማግለል ፣ ራስን መለየት እና ራስን ማራቅ ልዩነታቸው ምንድነው?',
+                [
+                    'አንድ ሰው የኮሮና በሽታ ምልክቶች ሲታይበት እንቅስቃሴዎቹን በመገደብ ከሌሎች የሚነጥልበት ሂደት ራስን ማግለል ይባላል፡፡  አንድ ሰው የኮሮና በሽታ ተጋላጭነት ሊኖርብኝ ይችላል ብሎ ሲያስብ ወይም ሲሰጋ የጤንነቱን ሁኔታ እስከሚያረጋግጥ ድረስ ራሱን ከሌሎች ለይቶ የሚያቆይበት ሁኔታ ራስን መለየት ይባላል፡፡ አንድ ሰው ከሌላ ሰዎች ጋር የሚፈጥረው አካላዊ ልዩነት ራስን ማራቅ ይባላል፡፡ ']
+            ],
+            [
+                r'ልጆች ወይም ወጣቶች በ COVID-19 ሊያዙ ይችላሉን?',
+                ['አዎ! ጥናቶች እንደሚያመለክቱት ልጆች እና ወጣቶች ልክ እንደማንኛውም የዕድሜ ክልል በበሽታው የመጠቃት ዕድል አላቸው፡፡ እናም በሽታውንም ሊያሰራጩ ይችላሉ ፡፡']
+            ],
+            [
+                r'እራሴን ከ COVID-19 በሽታ ለመከላከል እና ስርጭቱን ለመግታት ምን ማድረግ እችላለሁ?',
+                [
+                    'በአለም የጤና ድርጅት፣ በብሔራዊ ብሎም በአከባቢዎ የህዝብ ጤና እንክብካቤ ባለስልጣናት በኩል የሚሰጡ  የ COVID-19 መረጃዎች በትክክል መከታተልና መተግበር፡፡']
+            ],
+            [
+                r'ለ COVID-19 በሽታ ክትባት ፣ መድሃኒት ወይም ህክምና አለውን?',
+                [
+                    'እስካሁን ባለው ሁኔታ “COVID-19” ን ለመከላከል እና ለማከም የሚያስችል ምንም አይነት ክትባትም ሆነ መድኃኒት የለውም፡፡ ግን በተወሰነ ሁኔታ በማከም ከበሽታው ማገገም ይቻላል፡፡']
+            ],
+            [
+                r'የ COVID-19 ስርጭትን ለመከላከል የሕክምና ጭምብሎችን ማን መልበስ አለበት?',
+                [
+                    'በ COVID-19 ከተያዙ በሽተኞች ጋር ቀጥተኛ ንክኪ ያላቸው የህክምና ባለሙያዎች፡፡ ነገር ግን ሌሎች አይነት ጭምብሎችን ሁሉም ሰው በጥንቃቄ ቢጠቀም ችግር የለውም፡፡']
+            ],
+            [
+                r'በአንድ ሰው ላይ የ COVID-19 ሕመም ምልክቶችን በትክክል ለማየት ምን ያህል ጊዜ ይወስዳል?',
+                ['ከአምስት እስከ ስድስት ቀናት አካባቢ የሚደርስ ቢሆንም በጠቅላላው ግን ከ1 - 14 ቀናት ሊደርስ ይችላል ፡፡']
+            ],
+            [
+                r'በ COVID-19 እና በእንስሳት መካከል ያለው ግንኙነት ምንድነው?',
+                ['የ COVID-19 በሽታ ከሰው ወደ ሰው እና ከአንዳንድ እንስሶች ወደ ሰው የመተላለፍ እድል አለው፡፡']
+            ],
+            [
+                r'ከቤት እንስሳዬ ላይ COVID-19 ሊይዘኝ ይችላልን?',
+                ['በበሽታው ከተያዙ ሰዎች ወይም እንስሶች ጋር ንክኪ ካላቸው ውሾች እና ድመቶች የመተላለፍ እድል እንዳለው እንዳንድ ጥናቶች ያሳያሉ፡፡']
+            ],
+            [
+                r'የኮሮኖ ቫይረስ በተለያዩ ነገሮች ላይ ለምን ያህል ጊዜ ሊቆይ ይችላል?',
+                [
+                    'ጥናቶች እንደሚያሳዩት በፕላስቲክ እና ከማይዝጉ ብረቶች ላይ እስከ 72 ሰዓታት፣ በመዳብ ላይ እስከ 4 ሰዓታት እናም በስልክና በመሳሰሉት ላይ ደግሞ እስከ 24 ሰዓታት ሊቆይ ይችላል ፡፡']
+            ],
+            [
+                r'ሸቀጣሸቀጥ ግብይቶችን በጥንቃቀ እንዴት ማካሄድ ይቻልላ?',
+                [
+                    'የሸቀጣሸቀጥ ግብይት በሚያካሂዱበት ጊዜ ቢያንስ 1 ሜትር ርቀት ከሌሎች ይራቁ እና አይኖችዎን ፣ አፍዎን እና አፍንጫዎን ከመነካካት ይቆጠቡ ፡፡ የሚቻል ከሆነ ከመግዛትዎ በፊት የገበያ ቅርጫቶችን ያፅዱ ፡፡  ቤትዎ አንዴ ከገቡ በኋላ እጅዎን በደንብ ይታጠቡ እንዲሁም የተገዙ ምርቶችዎን በስርአት ያፅዱ ፡፡ በአሁኑ ወቅት በምግብ ወይም በምግብ ማሸጊያዎች መተላለፉ የተረጋገጠ የኮሮኖ ቫይረስ የለም ፡፡']
+            ],
+            [
+                r'አንቲባዮቲኮች COVID-19 ን በመከላከል ወይም በማከም ረገድ ውጤታማ ናቸውን?',
+                ['አይደሉም! ምክንያቱም አንቲባዮቲኮች በቫይረሶች ላይ አይሰሩም ፣ እነሱ የሚሰሩት በባክቴሪያ ኢንፌክሽኖች ላይ ብቻ ነው።']
+            ],
+            [
+                r'ፍራፍሬዎች እና አትክልቶች እንዴት ይታጠባሉ?',
+                ['እጅን በውሃና በሳሙና ከታጠቡ በኋላ'
+                 'o ጥሬያቸውን የሚበሉ ፍራፍሬዎች እና አትክልቶችን በንጹህ ውሃ እና እነሱን በማያበላሽ ማፅጃ በደንብ ማጠብ፡፡'
+                 'o ፍራፍሬዎች እና አትክልቶች የሚበስሉ ከሆነ በንፅህ ዉሃ ብቻ ማጠብ በቂ ነው፡፡']
+            ],
+            [
+                r'በበሽታው ከተያዘ ሰው ጽዳጅ COVID-19 ልያዝ እችላለሁን?',
+                ['እስካሁን ባለው መረጃ መሰረት በጽዳጅ እንደሚተላለፍ የሚጠቁም መረጃ የለም፡፡']
+            ],
+            [
+                r'Akkam bultee?',
+                ['Akkam bultee?']
+            ],
+            [
+                r'Akkam oolte?',
+                ['Akkam oolte?']
+            ],
+            [
+                r'Nagayattii buli!',
+                ['Nagayattii buli!']
+            ],
+            [
+                r'Nagayattii!',
+                ['Nagayattii!']
+            ],
+            [
+                r'Galatoomi!',
+                ['Fayyaa tayi!']
+            ],
+            [
+                r'Koroonaa Vaayirasiin Maalii?',
+                ["Coroonaa Vaayirasiin Vaayirasii maatii bal'aa qabu beeyiladoota ykn namoota irratti dhibee kan qaqqabsiisuu dha"]
+            ],
+            [
+                r'COVID-19 Maalii?',
+                ["COVID-19 vaayirasii yeroo dhiyeenyaa argame kanaan kan daddarbuu dha."]
+            ],
+            [
+                r"Mallattooleen COVID-19 Maal Fa'a?",
+                ["Mallattooleen COVID-19 muraasa keessaa dhukkubbii mataa, qufaasisa gogaa fi dadhabbii dha."]
+            ],
+            [
+                r"Mallattoolee COVID-19 yoon qabaadhe maal gochuun qaba, tajaajila yaalaa yoom na barbaachisaa?",
+                ["Mallattoolee COVID-19 muraasa akka qufa'uu ykn dhukkubbiin mataa isinitti yaa dhagahame yaala fayyaa isin hin barbaachisu, qofaa taa'uudhaan ofii keessan yaalaa. Qajeelfamoota biyyoolessaa ykn adda ba'uu hordofaa."]
+            ],
+            [
+                r"COVID-19 akkamiin daddarbaa?",
+                ["COVID-19 qabu irraa nama vaayirasii qabu irraa nama qaba. Namni COVID-19 qabu yoo qufa'u, haxxiffatu ykn dubbatu harcaatii ba'uun namatti darba."]
+            ],
+            [
+                r"COVID-19 nama mallattoolee isaa qabu irraa gara nama biraatti daddarbuu ni danda'aa?",
+                ["COVID-19 nama mallattoolee akka qufa'uu fi haxxiffachuu yaa'aa isa keessaa bahuun namatti darba. Namoonni COVID-19 qaban hedduun mallattoolee salphaa agarsiisu. COVID-19 nama baay'ee hin dhukkubsatin mallattoolee salphaa agarsiisan irraa nama qabuu danda'a."]
+            ],
+            [
+                r"Nama faalame yoo beekuu baanne ofii keenyaa fi namoota biroo akkamiin eeguu dandeenyaa?",
+                ["Qulqullina harkaa fi sirna hargansuu eeguun tooftaa ittisaa yoo ta'u namoota biroo fi of eeguudhaaf baay'ee murteessaa dha"]
+            ],
+            [
+                r"Nama COVID-19 qabuu waliin walitti dhufeenya Kanan qabu yoo ta'e maal gochuutu ana irraa eeggamaa?",
+                ["Nama COVID-19 qabuu waliin walitti dhufeenya yoo qabaatte, vaayirasichaan qabamuu dandeessa. Walitti dhufeenya jechuun nama vaayirasii qabuu waliin jiraachuu ykn meetira 1 gadi itti dhiyaachuu jechuu dha. Kana irra mana turuun filannoo sirrii dha."]
+            ],
+            [
+                r"Of adda baasuu jechuun maal jechuu dha?",
+                ["Namni mallattoolee COVID-19 qabu adda ba'uudhaan turuun miseensota maatii fi namoota biroo oolchuuf filatamaa dha."]
+            ],
+            [
+                r"Mallattoolee COVID-19 yoon qabaachuu baadhe, garuu COVID-19 tiif saaxilamuu koo shakkii yoon qabaadhe maal gochuun qabaa, adda bahanii turuu jechuun maal jechuudhaa?",
+                ["Adda ba'anii turuu jechuun nama COVID-19 qabuu waliin walitti dhufeenya namni qabu, mallattoolee qufa'uu fi haxxiffachuu qabaachuu baatu illee qofaa yeroo itti turuu dha. Kaayyoon adda ba'uu akka hin daddabarre gochuufii dha."]
+            ],
+            [
+                r"Of adda baasuu, qofaa turuu fi addaan fageenya qaamaa jechuun maal jechuudhaa?",
+                ["Adda baasuu jechuun nama hin dhukkubsanne ta'ee garuu COVID-19 nama saaxilame hojii irraa dhaabuu ykn namoota biroo irraa adda baasuu dha. Kaayyoon isaa namoonni yeroo mallattooleen isaan irratti muul'atu tatamsa'ina dhorkuufii dha.",
+                 "Qofaa turuu jechuun nama mallattoolee COVID-19 qabuu fi daddabarsuu danda'u akka vaayirasichi hin tatamsaane ittisuufii dha."]
+            ],
+            [
+                r"Daa'imman ykn dargaggoonni COVID-19 qabamuu ni danda'uu?",
+                ["Qo'annaawwan akka ibsanitti daa'immanii fi dargaggoonni namoota umurii kamiyyuu irra carraan vaayirasichaan qabamuu isaanii xiqqaa yoo ta'u, vaayirasicha ni daddabarsu.",
+                 "Qo'annaawwan akka ibsanitti daa'immanii fi dargaggoonni carraan vaayirasichaan qabamuu isaanii dhiphaa yoo ta'u, darbee darbee garuu sadarkaa umurii kana keessatti warri qabaman ni jiru."]
+            ],
+            [
+                r"Ofii koo fi maatii koo tatamsa'ina dhibee irraa eeguuf maal gochuun qabaa?",
+                ["Waa'ee kaka'uumsa COVID-19 odeeffannoo reefuu fuula Dhaabbata Fayyaa Addunyaa fi Abbaa Taayitaa Fayyaa biyyaa irraa hubannaa fudhaa. Biyyoonni Addunyaa hedduutti Vaayirasitti namoota haaraa qabaa kan jiru ta'ee hedduu isaanii keessatti vaayirasichi ka'ee jira."]
+            ],
+            [
+                r"COVID-19'tiif talaalliin, dawaan ykn yaalli ni jiraa?",
+                ["Qorochoonni warra Lixaa, aadaa ykn mana keessatti qophaa'an mallattoolee salphaa COVID-19 kan dhabamsiisan yoo ta'u, Dhaabbanni Fayyaa Addunyaa qorichaalee kamiyyuu antibaayootiksii dabalatee ittisa COVID-19 tiif akka hin oolle dhorkee jira. Garuu yeroo ammaa qorannaawwan yaalii qorichoota Lixaa fi Aadaa dabalatee kiliinika keessatti yaaliin taasifamaa jira. Dhaabbanni Fayyaa Addunyaa talaallii fi qorichi COVID-19 akka argamuuf deeggarsa taasisaa kan jiru yoo ta'u, waa'ee bu'aa argamee odeeffannoo haaraa yeroo yerootti dhiyeessaa jira."]
+            ],
+            [
+                r"COVID-19 ittisuudhaaf Dhaabbanni Fayyaa Addunyaa maaskii meedikaalaa akka fayyadaman gorsa kennee jiraa?",
+                ["Yeroo ammaa kana iddoowwan namoonni itti hedduummatanitti Maaskii fayyadamuu ykn dhiiauun (Kan Yaalaa fi kan biroo) ragaan ogeeyyii yaalaa kan hin jirre yoo ta'u Dhaabbanni Fayyaa Addunyaa garuu saayinsii maaskii irratti hatattamaan adeemsifamaa jiru ilaalchisee qajeelfama haaraa itti fuufiinsaan foyyeessaa jira."]
+            ],
+            [
+                r"Erga COVID-19 qabamanii booddee mallattooleen muul'achuudhaaf yeeroo hammamii fudhataa?",
+                ["COVID-19 tiif saaxilamuu fi mallattoolee isaa arguun guyyaa 1 hanga guyyaa 6 kan fudhatu ta'ee garuu guyyaa 1 hanga guyyaa 14 turuu ni danda'a."]
+            ],
+            [
+                r"Walitti dhufeenya COVID-19 fi beeyiladootaa maalii?",
+                ["COVID-19 namaa gara namaatti kan tatamsa'uu dha."]
+            ],
+            [
+                r"Beeyiladoota manaa koo irraa COVID-19 qabamuu nan danda'aa?",
+                ["Saroonnii fi Adurreewwan hedduun namaa waliin walitti dhufeenya qaban COVID-19 qoratamanii kan qaban ta'uun isaanii beekkamee jira. Hilleessii fi Hantuuti lamaanuu vaayirasicha gara beeyiladoota birootti ni dabarsu shakkiin jedhu jira, garuu bineensonni kunneen kan tatamsaasan ta'uun isaanii garuu ragaadhaan hin mirkanoofne."]
+            ],
+            [
+                r"Vaayirasiin kuni wantoota irra hammam turaa?",
+                ["Ragaan baay'ee murteessaa ta'e koroonaa vaayirasii wantoota irra jiran akkaataa salphaa ta'een meeshaalee qulqullina ittiin eeganiin salphumatti baduu danda'a. Qorannaan akka ibsutti COVID-19 wanta pilaastikaa fi sibiila irra sa'aatiiwwan 72 ni tura, Koopparii irra sa'aatii 4 fi Boordii Kaardii irra immoo sa'aatii 24 ni tura."]
+            ],
+            [
+                r"Meeshaalee suuqii akkamiin eeguun danda'amaa?",
+                [
+                 "Yeroo suuqii irraa yoo bittan fageenya qaamaa meetira tokko fagaachuu, ija, afaanii fi funyaan tuquu dhiisuu. Yoo danda'ame sochootuu ykn mi'a meesgaalee itti bitan farra jarmii itti biifuudha. Yoo mana geesaan meeshaalee bittan erga keessanii harka sirriitti dhiqachuu.",
+                 "Yeroo ammaa kana COVID-19 nyaataan ykn saamsaa nyaataan akka hin dabarre ragaa qabatamaan hin jiru."
+                 ]
+            ],
+            [
+                r"Kuduralee fi Muduraalee akkamiin dhiquun danda'amaa?",
+                ["Kuduraalee fi Muduraaleen nyaatawwan fayyaa mijataa ta'anii dha. Haala kamiyyuu keessatti yoo fayyadamtan sirriitti dhiquu, harka keessan bishsaanin  sirriitti dhiqadhaa. Keessumattuu dheedhii isa. kan nyaattan yoo ta'e bishaan qulqulluudhaan sirriitti dhiquu."]
+            ],
+            [
+                r"Antibaayootiksiin COVID-19 ittisuuf ykn yaaluuf bu'a qabeessa dhaa?",
+                ["Antibaayootiksiin kamiyyuu vaayirasocha hin fayyisu ykn COVID-19 hin yaalu; Dhibeewwan baakteeriyaa qofa ittisa. Yeroo tokko tokko ogeeyyiin yaalii COVID-19 ittisuudhaaf qoricha antibiotics dhibee baakteeriyaa ni fayyadamu."]
+            ],
+            [
+                r"Antibaayootiksiin COVID-19 ittisuuf ykn yaaluuf bu'a qabeessa dhaa?",
+                ["Antibaayootiksiin kamiyyuu vaayirasocha hin fayyisu ykn COVID-19 hin yaalu; Dhibeewwan baakteeriyaa qofa ittisa. Yeroo tokko tokko ogeeyyiin yaalii COVID-19 ittisuudhaaf qoricha antibiotics dhibee baakteeriyaa ni fayyadamu."]
+            ],
+            [
+                r"Bobbaan nama dhibee COVID-19 qabuu dhukkubicha ni daddabarsaa?",
+                ["Dhaabbanni Fayyaa Addunyaa akkaataa tata'olimsa qaliiniitiin COVID-12 irratti qo'annaa adeemsisaa  kan jiru yoo ta'u, mata duree kana irratti odeeffannoo haaraan ni kennama."]
+            ]
+        ]

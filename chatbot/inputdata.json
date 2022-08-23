@@ -13,7 +13,7 @@
             ],
             [
                 r"sorry (.*)",
-                ["Its alright", "Its OK, never mind", ]
+                ["Its alright!", "Its OK, never mind", ]
             ],
             [
                 r"i'm (.*) doing good",
